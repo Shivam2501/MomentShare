@@ -15,6 +15,7 @@
 		4F7AD7B21C8D2A2C0002202F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AD7B11C8D2A2C0002202F /* HomeViewController.swift */; };
 		4F7AD7B91C8D391F0002202F /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AD7B81C8D391F0002202F /* UploadViewController.swift */; };
 		4F7AD7BC1C8D3FF50002202F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AD7BB1C8D3FF50002202F /* Post.swift */; };
+		4F7AD7BE1C8D4B750002202F /* PostViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AD7BD1C8D4B750002202F /* PostViewCell.swift */; };
 		708E05158237DF36F8537572 /* Pods_MomentShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D983B1007A4445C2CADAA821 /* Pods_MomentShare.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		4F7AD7B11C8D2A2C0002202F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4F7AD7B81C8D391F0002202F /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		4F7AD7BB1C8D3FF50002202F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4F7AD7BD1C8D4B750002202F /* PostViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewCell.swift; sourceTree = "<group>"; };
 		9CD51D28E45C66A5B62460AA /* Pods-MomentShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-MomentShare/Pods-MomentShare.release.xcconfig"; sourceTree = "<group>"; };
 		D983B1007A4445C2CADAA821 /* Pods_MomentShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomentShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 				4F7AD7AF1C8D250C0002202F /* LoginViewController.swift */,
 				4F7AD7B11C8D2A2C0002202F /* HomeViewController.swift */,
 				4F7AD7B81C8D391F0002202F /* UploadViewController.swift */,
+				4F7AD7BD1C8D4B750002202F /* PostViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7AD7BE1C8D4B750002202F /* PostViewCell.swift in Sources */,
 				4F7AD7B01C8D250C0002202F /* LoginViewController.swift in Sources */,
 				4F7AD7B91C8D391F0002202F /* UploadViewController.swift in Sources */,
 				4F69DC6B1C866FF2002A0C8D /* AppDelegate.swift in Sources */,

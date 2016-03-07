@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4ACDE93F61F3B45DFD1A9659'
+               BlueprintIdentifier = '326DF926A530528C719A7784'
                BlueprintName = 'Pods-MomentShare'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_MomentShare.framework'>

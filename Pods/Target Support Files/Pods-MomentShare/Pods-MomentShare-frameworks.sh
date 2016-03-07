@@ -87,9 +87,11 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-MomentShare/AFNetworking.framework"
   install_framework "Pods-MomentShare/Bolts.framework"
   install_framework "Pods-MomentShare/Parse.framework"
+  install_framework "Pods-MomentShare/ParseUI.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-MomentShare/AFNetworking.framework"
   install_framework "Pods-MomentShare/Bolts.framework"
   install_framework "Pods-MomentShare/Parse.framework"
+  install_framework "Pods-MomentShare/ParseUI.framework"
 fi

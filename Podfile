@@ -5,6 +5,7 @@ target 'MomentShare' do
 
 pod 'AFNetworking', '~> 2.6'
 pod 'Parse'
+pod 'ParseUI'
 
 end
 

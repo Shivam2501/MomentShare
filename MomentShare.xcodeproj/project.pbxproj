@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F69DC6B1C866FF2002A0C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F69DC6A1C866FF2002A0C8D /* AppDelegate.swift */; };
+		4F69DC701C866FF2002A0C8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F69DC6E1C866FF2002A0C8D /* Main.storyboard */; };
+		4F69DC721C866FF2002A0C8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F69DC711C866FF2002A0C8D /* Assets.xcassets */; };
+		4F69DC751C866FF2002A0C8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F69DC731C866FF2002A0C8D /* LaunchScreen.storyboard */; };
+		4F7AD7B01C8D250C0002202F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AD7AF1C8D250C0002202F /* LoginViewController.swift */; };
+		4F7AD7B21C8D2A2C0002202F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AD7B11C8D2A2C0002202F /* HomeViewController.swift */; };
+		4F7AD7B91C8D391F0002202F /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AD7B81C8D391F0002202F /* UploadViewController.swift */; };
+		4F7AD7BC1C8D3FF50002202F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7AD7BB1C8D3FF50002202F /* Post.swift */; };
+		708E05158237DF36F8537572 /* Pods_MomentShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D983B1007A4445C2CADAA821 /* Pods_MomentShare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A78CE0D8825E332E4E2F3D7 /* Pods-MomentShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentShare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MomentShare/Pods-MomentShare.debug.xcconfig"; sourceTree = "<group>"; };
+		4F69DC671C866FF2002A0C8D /* MomentShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomentShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F69DC6A1C866FF2002A0C8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F69DC6F1C866FF2002A0C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F69DC711C866FF2002A0C8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F69DC741C866FF2002A0C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F69DC761C866FF2002A0C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7AD7AF1C8D250C0002202F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4F7AD7B11C8D2A2C0002202F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4F7AD7B81C8D391F0002202F /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		4F7AD7BB1C8D3FF50002202F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		9CD51D28E45C66A5B62460AA /* Pods-MomentShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentShare.release.xcconfig"; path = "Pods/Target Support Files/Pods-MomentShare/Pods-MomentShare.release.xcconfig"; sourceTree = "<group>"; };
+		D983B1007A4445C2CADAA821 /* Pods_MomentShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomentShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F69DC641C866FF2002A0C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708E05158237DF36F8537572 /* Pods_MomentShare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F69DC5E1C866FF2002A0C8D = {
+			isa = PBXGroup;
+			children = (
+				4F69DC691C866FF2002A0C8D /* MomentShare */,
+				4F69DC681C866FF2002A0C8D /* Products */,
+				73551B34A87795AED9A6FE67 /* Pods */,
+				D6B3677BD86C37DCFE9EE8ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F69DC681C866FF2002A0C8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F69DC671C866FF2002A0C8D /* MomentShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F69DC691C866FF2002A0C8D /* MomentShare */ = {
+			isa = PBXGroup;
+			children = (
+				4F7AD7BA1C8D3FD60002202F /* Model */,
+				4F7AD7B31C8D2A320002202F /* Views */,
+				4F69DC6A1C866FF2002A0C8D /* AppDelegate.swift */,
+				4F69DC6E1C866FF2002A0C8D /* Main.storyboard */,
+				4F69DC711C866FF2002A0C8D /* Assets.xcassets */,
+				4F69DC731C866FF2002A0C8D /* LaunchScreen.storyboard */,
+				4F69DC761C866FF2002A0C8D /* Info.plist */,
+			);
+			path = MomentShare;
+			sourceTree = "<group>";
+		};
+		4F7AD7B31C8D2A320002202F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F7AD7AF1C8D250C0002202F /* LoginViewController.swift */,
+				4F7AD7B11C8D2A2C0002202F /* HomeViewController.swift */,
+				4F7AD7B81C8D391F0002202F /* UploadViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4F7AD7BA1C8D3FD60002202F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F7AD7BB1C8D3FF50002202F /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		73551B34A87795AED9A6FE67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A78CE0D8825E332E4E2F3D7 /* Pods-MomentShare.debug.xcconfig */,
+				9CD51D28E45C66A5B62460AA /* Pods-MomentShare.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6B3677BD86C37DCFE9EE8ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D983B1007A4445C2CADAA821 /* Pods_MomentShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F69DC661C866FF2002A0C8D /* MomentShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F69DC791C866FF2002A0C8D /* Build configuration list for PBXNativeTarget "MomentShare" */;
+			buildPhases = (
+				A073E78C8C8DF4D10114EB4F /* Check Pods Manifest.lock */,
+				4F69DC631C866FF2002A0C8D /* Sources */,
+				4F69DC641C866FF2002A0C8D /* Frameworks */,
+				4F69DC651C866FF2002A0C8D /* Resources */,
+				FCE895FC4AB4E2CF28B5AD25 /* Embed Pods Frameworks */,
+				4066D6A5D5DCB2D0E08DC6FF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentShare;
+			productName = MomentShare;
+			productReference = 4F69DC671C866FF2002A0C8D /* MomentShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F69DC5F1C866FF2002A0C8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Shivam Bharuka";
+				TargetAttributes = {
+					4F69DC661C866FF2002A0C8D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = HCW43YU8QE;
+					};
+				};
+			};
+			buildConfigurationList = 4F69DC621C866FF2002A0C8D /* Build configuration list for PBXProject "MomentShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F69DC5E1C866FF2002A0C8D;
+			productRefGroup = 4F69DC681C866FF2002A0C8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F69DC661C866FF2002A0C8D /* MomentShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F69DC651C866FF2002A0C8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F69DC751C866FF2002A0C8D /* LaunchScreen.storyboard in Resources */,
+				4F69DC721C866FF2002A0C8D /* Assets.xcassets in Resources */,
+				4F69DC701C866FF2002A0C8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4066D6A5D5DCB2D0E08DC6FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MomentShare/Pods-MomentShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A073E78C8C8DF4D10114EB4F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCE895FC4AB4E2CF28B5AD25 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MomentShare/Pods-MomentShare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F69DC631C866FF2002A0C8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7AD7B01C8D250C0002202F /* LoginViewController.swift in Sources */,
+				4F7AD7B91C8D391F0002202F /* UploadViewController.swift in Sources */,
+				4F69DC6B1C866FF2002A0C8D /* AppDelegate.swift in Sources */,
+				4F7AD7B21C8D2A2C0002202F /* HomeViewController.swift in Sources */,
+				4F7AD7BC1C8D3FF50002202F /* Post.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F69DC6E1C866FF2002A0C8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F69DC6F1C866FF2002A0C8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F69DC731C866FF2002A0C8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F69DC741C866FF2002A0C8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F69DC771C866FF2002A0C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F69DC781C866FF2002A0C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F69DC7A1C866FF2002A0C8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A78CE0D8825E332E4E2F3D7 /* Pods-MomentShare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MomentShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shivambharuka.MomentShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F69DC7B1C866FF2002A0C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD51D28E45C66A5B62460AA /* Pods-MomentShare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MomentShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shivambharuka.MomentShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F69DC621C866FF2002A0C8D /* Build configuration list for PBXProject "MomentShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F69DC771C866FF2002A0C8D /* Debug */,
+				4F69DC781C866FF2002A0C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F69DC791C866FF2002A0C8D /* Build configuration list for PBXNativeTarget "MomentShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F69DC7A1C866FF2002A0C8D /* Debug */,
+				4F69DC7B1C866FF2002A0C8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F69DC5F1C866FF2002A0C8D /* Project object */;
+}

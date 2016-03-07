@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="MomentShare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wlS-9o-lpF">
+                                <rect key="frame" x="40" y="129" width="241" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iWJ-av-vX1">
+                                <rect key="frame" x="40" y="237" width="241" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KA4-7i-I9t">
+                                <rect key="frame" x="70" y="335" width="180" height="53"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sign_in:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FWf-Q2-rz1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMv-cE-hCO">
+                                <rect key="frame" x="70" y="423" width="180" height="53"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signout:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tJq-ce-RbR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="password" destination="iWJ-av-vX1" id="Ng6-SK-iAO"/>
+                        <outlet property="username" destination="wlS-9o-lpF" id="t0h-ZX-OG7"/>
+                        <segue destination="aLb-Nf-733" kind="modal" identifier="loginSegue" id="GAc-cm-gcw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="202" y="289"/>
+        </scene>
+        <!--Upload-->
+        <scene sceneID="gsJ-nw-whh">
+            <objects>
+                <viewController id="OYi-rA-gDN" customClass="UploadViewController" customModule="MomentShare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6ug-jR-eDw"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Hg-DB-mNn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NRk-VX-QBP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Upload" id="Y52-p4-P92"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lTo-vD-qFv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205" y="603"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="KYt-xp-fMv">
+            <objects>
+                <viewController id="CUU-dP-lmA" customClass="HomeViewController" customModule="MomentShare" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jPo-OF-0eP"/>
+                        <viewControllerLayoutGuide type="bottom" id="zLD-Dj-JpK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yWb-iY-Sh3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KSA-BX-OqT">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="w0f-uq-HVY">
+                            <connections>
+                                <action selector="logout:" destination="CUU-dP-lmA" id="I5v-Rd-oym"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WET-yM-DIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1737" y="-26"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="qEi-PK-QdY">
+            <objects>
+                <tabBarController storyboardIdentifier="homenavbar" id="aLb-Nf-733" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="L9L-n5-tCz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Pg1-Fx-Luc" kind="relationship" relationship="viewControllers" id="rvc-gj-Y3X"/>
+                        <segue destination="OYi-rA-gDN" kind="relationship" relationship="viewControllers" id="31p-lp-KJt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nsT-1A-GbZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="665" y="289"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="abr-gy-BxA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pg1-Fx-Luc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="L07-nQ-Ryi"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cZp-1v-Wuq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CUU-dP-lmA" kind="relationship" relationship="rootViewController" id="J24-Bm-jqB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hHk-dS-o75" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205" y="-26"/>
+        </scene>
+    </scenes>
+</document>

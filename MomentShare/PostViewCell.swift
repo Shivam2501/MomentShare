@@ -13,10 +13,12 @@ import ParseUI
 class PostViewCell: UITableViewCell {
 
     @IBOutlet weak var FeedPic: PFImageView!
+    @IBOutlet weak var caption: UILabel!
 
     var instagramPost: PFObject! {
         didSet {
-            self.FeedPic.file = instagramPost["image"] as? PFFile
+            self.FeedPic.file = instagramPost["media"] as? PFFile
+            self.caption.text = instagramPost["caption"] as? String
             self.FeedPic.loadInBackground()
         }
     }

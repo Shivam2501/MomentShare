@@ -31,7 +31,6 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         query.findObjectsInBackgroundWithBlock { (posts: [PFObject]?, error: NSError?) -> Void in
             if let posts = posts {
                 self.posts = posts
-                print(posts)
                 self.tableView.reloadData()
             } else {
                 print(error?.localizedDescription)

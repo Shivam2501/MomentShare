@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import AFNetworking
 
 class UploadViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var caption: UITextField!
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,27 +30,28 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    var editedImage: UIImage?;
     
     func imagePickerController(picker: UIImagePickerController,
         didFinishPickingMediaWithInfo info: [String : AnyObject]) {
             // Get the image captured by the UIImagePickerController
             let originalImage = info[UIImagePickerControllerOriginalImage] as! UIImage
-            let editedImage = info[UIImagePickerControllerEditedImage] as! UIImage
-            
-            // Do something with the images (based on your use case)
-            Post.postUserImage(editedImage) { (success:Bool, error:NSError?) -> Void in
-                if success {
-                    print("Posted Successfully")
-                }else{
-                    print("Error")
-                    print(error?.localizedDescription)
-                }
-            }
-            
+            editedImage = info[UIImagePickerControllerEditedImage] as! UIImage
+            imageView.image = editedImage
             // Dismiss UIImagePickerController to go back to your original view controller
             dismissViewControllerAnimated(true, completion: nil)
     }
 
+    @IBAction func on_post(sender: AnyObject) {
+        Post.postUserImage(editedImage, text: caption.text) { (success:Bool, error:NSError?) -> Void in
+            if success {
+                print("Posted Successfully")
+            }else{
+                print("Error")
+                print(error?.localizedDescription)
+            }
+        }
+    }
     /*
     // MARK: - Navigation
 

@@ -11,7 +11,7 @@ import Parse
 
 class Post: NSObject {
     
-    class func postUserImage(image: UIImage?, withCompletion completion: PFBooleanResultBlock?) {
+    class func postUserImage(image: UIImage?, text: String? , withCompletion completion: PFBooleanResultBlock?) {
       
         let post = PFObject(className: "Post")
        
@@ -20,7 +20,7 @@ class Post: NSObject {
         //post["caption"] = caption
         post["likesCount"] = 0
         post["commentsCount"] = 0
-        
+        post["caption"] = text
         post.saveInBackgroundWithBlock(completion)
     }
 
